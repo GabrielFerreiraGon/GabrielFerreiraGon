@@ -1,0 +1,35 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+ul a{
+    font-family: "Calibri";
+    font-weight: bold;
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+    display: block;
+    line-height: 40px; /*espaço da linha*/
+    text-indent: 30px; /*empurrar pra frente*/
+}
+li{
+border-radius: 10px;
+background-color: rgb(243, 81, 6);
+list-style-type: none;
+float: left;
+width: 150px;
+}
+
+#header{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+}
+
+/*jeito para linguagem de programação*/
+a:hover {
+    background-color: #030303;
+    color: white;
+    border-radius: 10px;
+}

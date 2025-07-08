@@ -1,0 +1,24 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+li {
+    border: 1px solid green;
+    text-align: center;
+    float: left;
+    list-style-type: none;
+    width: 130px;
+    height: 30px;
+    background: url(barra-azul.png) no-repeat;
+
+a{ 
+
+}
+a:hover{
+
+}
+div{
+    
+    
+}

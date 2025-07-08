@@ -1,0 +1,125 @@
+
+
+body{
+	font: 12px "Lucida grande", "Lucida Sans Unicode" , Arial, sans-serif ;
+	background: #f4f2ec url("../img/fundo.png") repeat-x;
+}
+
+
+#block {
+	width:1080px;
+	margin:30px auto;
+}
+
+header{
+	height: 55px;
+}
+aside{
+	background: #F5E9CC;
+}
+fieldset{
+	border:none;
+	margin: 0;
+	padding: 0;
+}
+
+
+h1{
+   width: 261px;
+   height: 31px;
+   background : url(../img/logo.png) no-repeat;
+   float: left;
+   text-indent: -9000px;
+   display:block;
+}
+
+#list-one{
+	float: right;
+	display: block;
+}
+
+#list-one li{
+	text-decoration: none;
+	list-style-type: none;
+	float: left;
+	text-decoration: none;
+	margin-right: 25px;
+
+}
+
+#list-one li a{
+padding-top: 2px;
+text-transform: uppercase;
+text-decoration: none;
+}
+
+a:visited, a:active, a:link{
+	color: #af670a;
+	text-decoration: none;
+}
+
+#list-one li a:hover{
+	border-bottom: #af670a 1px solid;
+	color: #227115;
+}
+
+/* begin of photos */
+#feat-one{
+	width:710px;
+	float: left;
+}
+
+#feat-two{
+	width:350px;
+	float: right;
+}
+
+#visit{
+	background:#ebe7dd;
+	padding:20px;
+	margin-top: 5px;
+
+}
+
+#visit h4{
+color:#86521a;
+text-indent: 10px;
+}
+
+.input-value{
+	width: 20px;
+}
+
+.input-bottom{
+	margin-top: 10px;
+	height:30px;
+	width:255px;
+	background: #86521a;
+	color: white;
+	text-align: center;
+}
+
+.esconder {
+    display: none;
+}
+
+#photos-s-{ 
+	background:#F5E9CC;
+	margin-left:15px;
+} 
+
+
+#photos-s- a {
+display:block;
+background: url(../img/fundo-foto.png) no-repeat ;
+padding: 17px;
+float: left;
+margin: 0 17px 17px 17px;
+}
+
+#photos-s- h4 { 
+text-indent:20px;
+margin-bottom: 0;
+color:#86521a;
+text-transform: uppercase;
+}

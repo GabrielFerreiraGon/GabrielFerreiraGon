@@ -1,0 +1,104 @@
+/**limpando formatacao*/
+*{ padding:0; margin: 0;}
+
+body{
+    font: 1em "Trebuchet MS", Helvetica , sans-serif;
+}
+/*HEADER*/
+#area-header{
+    background-color: #f7b600;
+    text-align: center;
+}
+#area-header , #area-link{padding:10px;} 
+
+#tecblogwrite{padding: 15px;}
+
+.color-white{color:white;}
+
+h1{ font-size: 2.5em ; }
+
+
+/**estados dos links*/ /*LINKS OF HEADER*/
+#area-header a:link, #area-header a:visited {
+color: #ffffff;
+padding: 8px 12px
+}
+#area-header a:hover{
+    color:#f7b600;
+    background: #fff;
+    text-decoration: none;
+}
+
+/*links principais*/
+
+a:link, a:visited {
+color: #f7b600
+}
+a:hover{
+    text-decoration: underline;
+}
+a{text-decoration: none;}
+ 
+/** THE END OF HEADER*/
+
+/* COMECO DAS POSTAGENS*/
+#area-de-principal{
+    width: 920px;
+    margin: 10px auto;
+}
+#area-de-publicações{
+    float: left;
+    width: 660px;
+   
+}
+.postagens{
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+.Publicadoem{display: block;
+    font-size: 0.8em;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+h2 {
+    color:#e6a74e;
+}
+
+#area-menu-lateral{
+    float: right;
+    width: 240px;
+    background: rgb(255, 255, 255);
+}
+
+.postagens-newrest{
+    background-color: #eee5e5;
+}
+
+.Categorias{
+    margin-top:50px;
+    background:#eee5e5 ;
+}
+
+h3{
+    color:#4f4c4c;
+    background: #b0a9a9;
+}
+
+hr {
+    margin-top: 4px;
+}
+
+
+.font{font-size: 0.8em;
+padding-top:10px;}
+
+
+#rodapé{
+    padding-top: 15px ;
+    padding-bottom: 5px ;
+    clear:both;
+    color: #000000;
+    text-align: center;
+    font-size: 0.9em;
+    background:#b0a9a9 ;
+}
