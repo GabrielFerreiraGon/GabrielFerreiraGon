@@ -1,0 +1,88 @@
+/*Estilos
+
+#firstmenu{  
+ list-style-type: none;
+} 
+
+ul a{
+    font-family: sans-serif;
+    text-decoration: none;
+    color:black;
+    display: block;
+    line-height: 40px; 
+    text-indent: 30px; 
+    width: 200px;
+    background: #f99200 url("imagens/menu.png") no-repeat left bottom;
+}
+
+/*jeito para linguagem de programação*/
+/*a:hover , .sel a{
+    background-position: right bottom;
+    background-color: #f99200;
+    color: white;
+}*/
+
+/* z-index
+#posiciona1{
+    background-color: #F00;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top:0;
+    z-index: 2;
+    }
+    
+    #posiciona2{
+    background-color: #0F0;
+    width: 50px;
+    height: 75px;
+    position: absolute;
+    top:25px;
+    z-index: 1;
+    }
+    
+    #posiciona3{
+    background-color: #00F;
+    width: 15px;
+    height: 50px;
+    position: absolute;
+    top:20px;
+    z-index: 3;
+    }
+    */
+
+
+    /*BARRA HORIZONTAL
+
+
+#div-barrahorizontal-one li{
+float: left;
+list-style: none;
+   
+}*/
+
+*{margin: 0px;padding: 0px;}
+
+#Barras a {
+    text-align: center;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', "Calibri", 'Trebuchet MS', sans-serif;
+    display: block;
+    text-decoration: none;
+    text-indent:-10px;
+    line-height: 30px;
+    background: url(imagens/divisor.png) repeat-y left top;
+    border-radius: 8px
+}
+
+li{ position: relative; left: 300px;
+    width: 150px;
+    list-style: none;
+    background: url(imagens/fundo-horizontal.png);
+    float: left;    border-radius: 8px;
+}
+
+H2{
+    width: 100px;
+    background: url(tt.png);
+}

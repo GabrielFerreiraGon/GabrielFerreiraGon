@@ -1,0 +1,44 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+div{
+    position:fixed ;
+}
+
+/* primeira class*/
+
+.h1{
+    width: 100px;height: 150px; 
+}
+
+.h2{
+    width: 300px;height: 150px; 
+}
+
+.h3{
+    width: 200px;height: 150px; 
+}
+
+.h4{
+    width: 250px;height: 150px; 
+}
+
+/*segunda class*/
+
+.T1{
+background: red;
+}
+
+.T2{
+background:green;
+}
+
+.T3{
+    background:yellow;
+}
+
+.T4{
+    background:blueviolet;
+}
