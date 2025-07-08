@@ -1,0 +1,292 @@
+/*Paralax
+
+
+html,body{
+margin:0;
+font:16px "lato", sans-serif;
+color:#777;
+height: 100%;
+}
+
+.conteudo{
+color:#777;
+background-color:white;
+text-align: justify;
+padding:50px 80px;
+}
+
+p{text-align: center}
+
+h3{
+text-transform:uppercase;
+color:#111;
+text-align:center;
+}
+
+/* formatando as caixas 
+
+.caixa-one , .caixa-two ,.caixa-three ,.caixa-four ,.caixa-five{
+	height:100% ;
+	opacity: 0.8;
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position: center;
+	background-attachment: fixed;
+	position: relative;
+}
+.caixa-one{
+background-image: url(imagens/imagem1.jpg);
+}
+.caixa-two{
+background-image: url(imagens/imagem2.jpg);
+}
+.caixa-three{
+background-image: url(imagens/imagem3.jpg);
+}
+.caixa-four{
+background-image: url(imagens/imagem4.jpg);
+}
+.caixa-five{
+background-image: url(imagens/imagem5.jpg);
+}
+
+.caixa-title-one{
+	position: absolute;
+	top: 45%;
+	left: 0;
+	letter-spacing:5px;
+	font-size:25px;
+	text-align: center;
+	width: 100%;
+}
+.caixa-title-one span.titulo{
+	color:#fff;
+	padding:18px;
+	letter-spacing:5px;
+	font-size:25px;
+	background-color: #111;
+	text-transform: uppercase;
+
+}*/
+
+
+/*animações*/
+
+ @Keyframes Anima-Anima{
+
+	from {
+
+border-radius:150px;
+background: #DC143C;
+bottom: 0;
+top:0;
+	}
+	to {
+background:	#FFFF00;
+border-radius: 15px;
+bottom: 600px;
+top: 600px;
+
+	}
+
+} 
+
+
+@Keyframes Anima-Anima2{
+
+	from {
+border-radius:150px;
+background: green;
+top: 0;
+bottom:0;
+
+	}
+	to {
+background:	grey;
+border-radius: 15px;
+top: 600px;
+bottom: 600px;
+	}
+
+}
+
+
+@Keyframes Anima-Anima3{
+
+	from {
+border-radius:150px;
+background: green;
+top:0;
+bottom:0;
+
+	}
+	to {
+background:	grey;
+border-radius: 15px;
+bottom: 600px;
+top: 600px;
+	}
+
+}
+
+@Keyframes Anima-Anima4{
+
+	from {
+border-radius:150px;
+background: red;
+bottom:0;
+top:0;
+
+	}
+	to {
+background:	pink;
+border-radius: 15px;
+bottom: 600px;
+top: 600px;
+	}
+
+}
+
+header {
+	display: flex;
+	/*justify-content: flex-start|flex-end|center|space-between|space-around|space-evenly|initial|inherit;*/
+	/*flex-wrap: nowrap|wrap|wrap-reverse|initial|inherit;*/
+	/*align-items: flex-start ;|stretch|positional alignment|flex-start|flex-end|baseline|initial|inherit;*/
+}
+
+#Anima0{
+/*animation-name: Anima-Anima;
+animation-duration: 2s;
+animation-iteration-count: 10;
+animation-direction: alternate;*/
+-webkit-animation: Anima-Anima2 0.5s 0s 9999 alternate;
+-moz-animation: Anima-Anima 0.5s 0s 9999 alternate;
+-o-animation: Anima-Anima 2s 0s 9999 alternate;
+position: relative;
+background:red;
+width: 500px;
+height: 500px;
+text-align:center;
+order: 4;
+display: flex;
+align-items: center;
+}
+#Anima1{
+/*animation-name: Anima-Anima;
+animation-duration: 2s;
+animation-iteration-count: 10;
+animation-direction: alternate;*/
+-webkit-animation: Anima-Anima2 0.5s 0s 9999 alternate;
+-moz-animation: Anima-Anima 0.5s 0s 9999 alternate;
+-o-animation: Anima-Anima 4s 0s 9999 alternate;
+position: relative;
+background:red;
+width: 500px;
+height: 500px;
+text-align:center;
+order: 2;
+display: flex;
+align-items: center;
+}
+#Anima2{
+/*animation-name: Anima-Anima;
+animation-duration: 2s;
+animation-iteration-count: 10;
+animation-direction: alternate;*/
+-webkit-animation: Anima-Anima 0.5s 0s 9999 alternate;
+-moz-animation: Anima-Anima 0.5s 0s 9999 alternate;
+-o-animation: Anima-Anima 6s 0s 9999 alternate;
+position: relative;
+background:red;
+width: 500px;
+height: 500px;
+text-align:center;
+order: 3;
+}
+
+#Anima3{
+/*animation-name: Anima-Anima;
+animation-duration: 2s;
+animation-iteration-count: 10;
+animation-direction: alternate;*/
+-webkit-animation: Anima-Anima 0.5s 0s 9999 alternate;
+-moz-animation: Anima-Anima 0.5s 0s 9999 alternate;
+-o-animation: Anima-Anima 8s 0s 9999 alternate;
+position: relative;
+background:red;
+width: 500px;
+height: 500px;
+text-align:center;
+order: 1;
+}
+
+/* segunda parte */
+
+
+#Anima4{
+/*animation-name: Anima-Anima;
+animation-duration: 2s;
+animation-iteration-count: 10;
+animation-direction: alternate;*/
+-webkit-animation: Anima-Anima3 0.5s 0s 9999 alternate;
+-moz-animation: Anima-Anima 0.5s 0s 9999 alternate;
+-o-animation: Anima-Anima 8s 0s 9999 alternate;
+position: relative;
+background:red;
+width: 500px;
+height: 500px;
+text-align:center;
+order: 1;
+}
+
+#Anima5{
+/*animation-name: Anima-Anima;
+animation-duration: 2s;
+animation-iteration-count: 10;
+animation-direction: alternate;*/
+-webkit-animation: Anima-Anima4 0.5s 0s 9999 alternate;
+-moz-animation: Anima-Anima 0.5s 0s 9999 alternate;
+-o-animation: Anima-Anima 8s 0s 9999 alternate;
+position: relative;
+background:red;
+width: 500px;
+height: 500px;
+text-align:center;
+order: 1;
+}
+
+#Anima6{
+/*animation-name: Anima-Anima;
+animation-duration: 2s;
+animation-iteration-count: 10;
+animation-direction: alternate;*/
+-webkit-animation: Anima-Anima3 0.5s 0s 9999 alternate;
+-moz-animation: Anima-Anima 0.5s 0s 9999 alternate;
+-o-animation: Anima-Anima 8s 0s 9999 alternate;
+position: relative;
+background:red;
+width: 500px;
+height: 500px;
+text-align:center;
+order: 1;
+}
+
+#Anima7{
+/*animation-name: Anima-Anima;
+animation-duration: 2s;
+animation-iteration-count: 10;
+animation-direction: alternate;*/
+-webkit-animation: Anima-Anima4 0.5s 0s 9999 alternate;
+-moz-animation: Anima-Anima 0.5s 0s 9999 alternate;
+-o-animation: Anima-Anima 8s 0s 9999 alternate;
+position: relative;
+background:red;
+width: 500px;
+height: 500px;
+text-align:center;
+order: 1;
+}	
+
+    header#one {
+    	
+    }

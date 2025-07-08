@@ -1,0 +1,33 @@
+
+body{
+    background: #dada84 url('imagens/fundo.png') repeat;
+    width: 900px ;
+    font: 16px Arial, helvetica, sans-serif;
+    padding: 2px;
+}
+.Linksofpage{
+    text-align: left;
+    padding: 20px;
+    color: #261e6d ;
+    background: #e9cf8a;
+    font-weight: bold;
+}
+a{
+    padding: 15px;
+    text-decoration: none;
+}
+H4{
+    color: #c9a542;
+}
+.Linksofpageone{
+background: #ddc88f;
+padding: 8px;
+}
+.rodape{
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}
+.borderofimg{
+    border: 10px solid #c3c3ae;
+}
