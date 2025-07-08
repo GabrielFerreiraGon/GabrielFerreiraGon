@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name" translatable="false">Pedidos</string>
+
+<string-array name="lista_pn">
+    <item>988999833</item>
+    <item>333333333</item>
+    <item>323232323</item>
+    <item>332324343</item>
+    <item>434343434</item>
+</string-array>
+</resources>
