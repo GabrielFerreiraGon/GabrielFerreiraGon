@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "737717231731",
+    "project_id": "nissan-d0842",
+    "storage_bucket": "nissan-d0842.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:737717231731:android:f57576d0aa12cac3b84a06",
+        "android_client_info": {
+          "package_name": "com.gabriel.pedidos"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1kvISMpm4pIdkIBHmg9ohn_-6Yym_Dbg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
